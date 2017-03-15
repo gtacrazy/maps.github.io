@@ -1,0 +1,35 @@
+<div class="info-mod">
+<p>
+Mapa interativo do GTA San Andreas com filtros para facilitar a localização dos itens, tais como:
+<ul>
+<li><strong>Mapa das 100 Pichações</strong></li>
+<li><strong>Mapa das 50 Ostras</strong></li>
+<li><strong>Mapa das 50 Pichações</strong></li>
+<li><strong>Mapa das 50 Fotografias</strong></li>
+<li><strong>Mapa das 50 Ferraduras de Cavalo</strong></li>
+<li><strong>Saltos Únicos</strong></li>
+<li><strong>Prédios do governo e transporte</strong></li>
+<li><strong>Lojas de roupas, bar, restaurantes e clubes</strong></li>
+<li><strong>Localização das armas, colete e estrelas da polícia</strong></li>
+<li><strong>Corridas, Easter eggs entre outros</strong></li>
+</ul>
+</p>
+</div>
+<link rel="stylesheet" type="text/css" href="css/style-gm.css">
+<script type="text/javascript" src="js/map.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHQU6EuI0k5C8p-fzppu3yq8sgvssdGFg&signed_in=false&callback=initMap"></script>
+<div class="iconMap">
+<label class="icon-1_"><input class="filter"type="checkbox"value="tagsmap"><span class="icon-1 iconTooltip"title="Pichações"></span></label>
+<label class="icon-2_"><input class="filter"type="checkbox"value="horseshoe"><span class="icon-2 iconTooltip"title="Ferraduras de Cavalo"></span></label><label class="icon-3_"><input class="filter"type="checkbox"value="snapshot"><span class="icon-3 iconTooltip"title="Fotografias"></span></label><label class="icon-4_"><input class="filter"type="checkbox"value="oysters"><span class="icon-4 iconTooltip"title="Ostras"></span></label><label class="icon-5_"><input class="filter"type="checkbox"value="jump"><span class="icon-5 iconTooltip"title="Saltos Únicos"></span></label><label class="icon-6_"><input class="filter"type="checkbox"value="guns"><span class="icon-6 iconTooltip"title="Armas"></span></label><label class="icon-7_"><input class="filter"type="checkbox"value="armor"><span class="icon-7 iconTooltip"title="Coletes"></span></label><label class="icon-8_"><input class="filter"type="checkbox"value="star"><span class="icon-8 iconTooltip"title="Estrelas da Polícia"></span></label><label class="icon-9_"><input class="filter"type="checkbox"value="air"><span class="icon-9 iconTooltip"title="Aeroporto"></span></label><label class="icon-10_"><input class="filter"type="checkbox"value="train"><span class="icon-10 iconTooltip"title="Estação de Trem"></span></label><label class="icon-11_"><input class="filter"type="checkbox"value="hospital"><span class="icon-11 iconTooltip"title="Hospital"></span></label><label class="icon-12_"><input class="filter"type="checkbox"value="cop"><span class="icon-12 iconTooltip"title="Delegacia de Polícia"></span></label><label class="icon-13_"><input class="filter"type="checkbox"value="fire"><span class="icon-13 iconTooltip"title="Corpo de Bombeiros"></span></label><label class="icon-14_"><input class="filter"type="checkbox"value="casino"><span class="icon-14 iconTooltip"title="Cassino"></span></label><label class="icon-29_"><input class="filter"type="checkbox"value="strip"><span class="icon-29 iconTooltip"title="Clubes de Strip"></span></label><label class="icon-15_"><input class="filter"type="checkbox"value="home"><span class="icon-15 iconTooltip"title="Safehouse"></span></label><label class="icon-16_"><input class="filter"type="checkbox"value="property"><span class="icon-16 iconTooltip"title="Propriedades e Empreendimentos"></span></label><label class="icon-17_"><input class="filter"type="checkbox"value="bomb"><span class="icon-17 iconTooltip"title="Bombshop"></span></label><label class="icon-18_"><input class="filter"type="checkbox"value="ammu"><span class="icon-18 iconTooltip"title="Ammu-Nation"></span></label><label class="icon-19_"><input class="filter"type="checkbox"value="paynspray"><span class="icon-19 iconTooltip"title="Pay'n'Spray"></span></label><label class="icon-20_"><input class="filter"type="checkbox"value="transfender"><span class="icon-20 iconTooltip"title="Transfender"></span></label><label class="icon-21_"><input class="filter"type="checkbox"value="food"><span class="icon-21 iconTooltip"title="Comida"></span></label><label class="icon-22_"><input class="filter"type="checkbox"value="bar"><span class="icon-22 iconTooltip"title="Bar e Club"></span></label><label class="icon-23_"><input class="filter"type="checkbox"value="clothe"><span class="icon-23 iconTooltip"title="Loja de Roupas"></span></label><label class="icon-24_"><input class="filter"type="checkbox"value="barber"><span class="icon-24 iconTooltip"title="Barbearia"></span></label><label class="icon-25_"><input class="filter"type="checkbox"value="gym"><span class="icon-25 iconTooltip"title="Academia"></span></label><label class="icon-26_"><input class="filter"type="checkbox"value="tattoo"><span class="icon-26 iconTooltip"title="Estúdio de Tatuagem"></span></label><label class="icon-27_"><input class="filter"type="checkbox"value="exp2"><span class="icon-27 iconTooltip"title="Lista de Import/Export 1"></span></label><label class="icon-27_"><input class="filter"type="checkbox"value="exp3"><span class="icon-27 iconTooltip"title="Lista de Import/Export 2"></span></label><label class="icon-27_"><input class="filter"type="checkbox"value="exp3"><span class="icon-27 iconTooltip"title="Lista de Import/Export 3"></span></label><label class="icon-28_"><input class="filter"type="checkbox"value="race"><span class="icon-28 iconTooltip"title="Corridas"></span></label></div>
+<div class="content-map">
+<div id="map">
+<button class="toggleArea"></button></div>
+</div>
+<div class="pt30px">
+</div>
+<style>.column-right-outerN{display:none;}.columnsN{padding-right:0 !important;}.contentN{width: 100%;}#commentsN{width:96%;}</style>
+<script>
+$(".toggleArea").click(function(){$(".column-right-outer").toggleClass('column-right-outerN');$(".columns").toggleClass('columnsN');$(".content-map, .info-mod, .post-outer").toggleClass('contentN');$("#commentsN").toggleClass('commentsN');});$(function(){$('.toggleArea').click(function(){$(this).toggleClass("toggleAreaN");});});
+</script>
+<div class="pt30px">
+</div>

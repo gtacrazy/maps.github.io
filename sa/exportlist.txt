@@ -1,0 +1,77 @@
+export list 1
+admiral
+buffalo
+camper
+feltzer
+infernus
+patriot
+remington
+sanchez
+sentinel
+stretch
+			['<h3>Admiral</h3>','<p></p>', 'export', -35.8, 24.922, 4, "gfx/iconMap-14.png"],
+			['<h3>Buffalo</h3>','<p></p>', 'export', -0.70, 19.824, 4, "gfx/iconMap-14.png"],
+			['<h3>Camper</h3>','<p></p>', 'export', -34.2, -52.90, 4, "gfx/iconMap-14.png"],
+			['<h3>Camper</h3>','<p></p>', 'export', 26.54, -56.59, 4, "gfx/iconMap-14.png"],
+			['<h3>Feltzer</h3>','<p></p>', 'export', -49.2, -0.038, 4, "gfx/iconMap-14.png"],
+			['<h3>Infernus</h3>','<p></p>', 'export', 21.53, -60.02, 4, "gfx/iconMap-14.png"],
+			['<h3>Patriot</h3>','<p></p>', 'export', -14.5, -22.71, 4, "gfx/iconMap-14.png"],
+			['<h3>Patriot</h3>','<p></p>', 'export', 39.53, 6.5091, 4, "gfx/iconMap-14.png"],
+			['<h3>Patriot</h3>','<p></p>', 'export', 9.879, -27.72, 4, "gfx/iconMap-14.png"],
+			['<h3>Remington</h3>','<p></p>', 'export', -40.0, 40.391, 4, "gfx/iconMap-14.png"],
+			['<h3>Sanchez</h3>','<p></p>', 'export', -44.3, -52.99, 4, "gfx/iconMap-14.png"],
+			['<h3>Sanchez</h3>','<p></p>', 'export', -49.7, -46.26, 4, "gfx/iconMap-14.png"],
+			['<h3>Sanchez</h3>','<p></p>', 'export', 18.51, 14.858, 4, "gfx/iconMap-14.png"],
+			['<h3>Sentinel</h3>','<p></p>', 'export', -28.2, 20.615, 4, "gfx/iconMap-14.png"],
+			['<h3>Stretch</h3>','<p></p>', 'export', 6.356, -43.06, 4, "gfx/iconMap-14.png"],
+
+
+blista compact
+cheetah
+comet
+fcr-900
+rancher
+sabre
+slamvan
+stafford
+stallion			mssing
+tanker
+			['<h3>Blistac Compact</h3>','<p></p>', 'export', -13.7, -37.74, 4, "gfx/iconMap-14.png"],
+			['<h3>Cheetah</h3>','<p></p>', 'export', 50.34, 28.657, 4, "gfx/iconMap-14.png"],
+			['<h3>Comet</h3>','<p></p>', 'export', -6.97, -61.73, 4, "gfx/iconMap-14.png"],
+			['<h3>FCR-900</h3>','<p></p>', 'export', 49.43, 51.069, 4, "gfx/iconMap-14.png"],
+			['<h3>Rancher</h3>','<p></p>', 'export', -0.79, -2.499, 4, "gfx/iconMap-14.png"],
+			['<h3>Rancher</h3>','<p></p>', 'export', 24.80, 6.8607, 4, "gfx/iconMap-14.png"],
+			['<h3>Rancher</h3>','<p></p>', 'export', 39.73, 17.934, 4, "gfx/iconMap-14.png"],
+			['<h3>Sabre</h3>','<p></p>', 'export', 4.606, -51.05, 4, "gfx/iconMap-14.png"],
+			['<h3>Slamvan</h3>','<p></p>', 'export', -43.0, 43.247, 4, "gfx/iconMap-14.png"],
+			['<h3>Stafford</h3>','<p></p>', 'export', 7.054, -54.61, 4, "gfx/iconMap-14.png"],
+			['<h3>Tanker</h3>','<p></p>', 'export', 47.39, -43.54, 4, "gfx/iconMap-14.png"],
+			
+			
+			
+			
+banshee
+bf injection
+blade
+euros
+freeway
+huntley
+journey
+mesa
+super gt
+zr-350
+			['<h3>Banshee</h3>','<p></p>', 'export', -2.90, -51.41, 4, "gfx/iconMap-14.png"],
+			['<h3>BF Injection</h3>','<p></p>', 'export', -14.2, -65.60, 4, "gfx/iconMap-14.png"],
+			['<h3>BF Injection</h3>','<p></p>', 'export', -38.9, 15.254, 4, "gfx/iconMap-14.png"],
+			['<h3>Blade</h3>','<p></p>', 'export', -43.0, 39.643, 4, "gfx/iconMap-14.png"],
+			['<h3>Euros</h3>','<p></p>', 'export', 27.44, 50.102, 4, "gfx/iconMap-14.png"],
+			['<h3>Freeway</h3>','<p></p>', 'export', 1.271, -57.95, 4, "gfx/iconMap-14.png"],
+			['<h3>Huntley</h3>','<p></p>', 'export', -2.19, -46.40, 4, "gfx/iconMap-14.png"],
+			['<h3>Journey</h3>','<p></p>', 'export', -26.6, 18.594, 4, "gfx/iconMap-14.png"],
+			['<h3>Journey</h3>','<p></p>', 'export', -26.6, 20.088, 4, "gfx/iconMap-14.png"],
+			['<h3>Journey</h3>','<p></p>', 'export', -34.7, -52.59, 4, "gfx/iconMap-14.png"],
+			['<h3>Mesa</h3>','<p></p>', 'export', -44.6, -53.56, 4, "gfx/iconMap-14.png"],
+			['<h3>Super GT</h3>','<p></p>', 'export', -2.19, -46.90, 4, "gfx/iconMap-14.png"],
+			['<h3>ZR-350</h3>','<p></p>', 'export', 37.43, 48.696, 4, "gfx/iconMap-14.png"],
+

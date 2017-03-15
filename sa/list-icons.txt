@@ -1,0 +1,41 @@
+Collectables:
+tagsmap
+horseshoe
+snapshot
+oysters
+jump
+
+Pick-ups:
+guns
+armor
+star
+
+Government & transport:
+airport
+fire station
+hospital center
+police station
+train station
+
+Buildings:
+casino
+safehouses
+property
+bomb
+ammu-nation
+paynspray
+tunning
+
+Food & recreation:
+food
+bar
+
+
+clothe
+barber
+gym
+tattoo
+
+
+exportation
+run
